@@ -1,0 +1,5 @@
+curl --location --request POST 'https://demo.alerttech.cloud/api/v1/tts' \
+--header 'api_key: dev' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'location_id=12345' \
+--data-urlencode 'tts=This is a TTS string.'
